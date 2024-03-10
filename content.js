@@ -1,4 +1,4 @@
-if (window.location.href.includes("google"))
+if (window.location.href.includes("www.google."))
 {
     var text = document.body.getElementsByTagName("textarea")[0]
 
