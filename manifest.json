@@ -15,6 +15,12 @@
       },
     "action": {
         "default_popup": "index.html",
-        "default_icon": "as_icon.png"
-    }
+        "default_icon": "images/as_icon.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["images/*"],
+            "matches": ["<all_urls>"]
+        }
+    ]
 }
